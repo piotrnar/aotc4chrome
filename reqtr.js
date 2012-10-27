@@ -11,7 +11,7 @@ d.style.display='none';
 d.appendChild(document.createElement("HR"));
 
 var h = document.createElement("H2")
-h.appendChild(document.createTextNode("Signed contract"))
+h.appendChild(document.createTextNode("Signed Transfer Request"))
 d.appendChild(h);
 
 var ta = document.createElement("TEXTAREA");
