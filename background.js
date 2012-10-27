@@ -1,4 +1,7 @@
-var signer = localStorage.signer+""
+console.log("main...")
+
+var signer = localStorage.signer || ""
+console.log("signer:"+signer)
 
 var plug = null
 
@@ -30,3 +33,4 @@ chrome.extension.onRequest.addListener(
 
 
 window.addEventListener("load", init)
+
