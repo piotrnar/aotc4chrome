@@ -1,19 +1,26 @@
 aotc4chrome
 ===========
+assets-otc for chrome
 
 A helper extension for chrome that automates gpg operations while using assets-otc.com
+Having it installed in your browser you do not need to use a command line anymore.
 
-In order for it to work you need to a GnuPG envirionment properly installed and armed with keys.
+Still for the extension to work you need to have GnuPG envirionment properly installed
+and armed with your private key.
 
-The extension uses pre-compiled libraries which come with webpg-chrome extension.
+The extension uses pre-compiled binary plugins, which I took from WebPG chrome extension.
+They are in ./plugins/ folder - built for Mac, Linux and Windows.
+Please feel welcome to make sure that they are identical with these:
+https://github.com/kylehuff/webpg-chrome/tree/master/extension/plugins
 
-------------------
-See also:
 
-http://www.gnupg.org/
+===========
+Links which you may find useful.
 
-http://webpg.org/
+GnuPG: http://www.gnupg.org/
 
-https://chrome.google.com/webstore/detail/webpg/hhaopbphlojhnmbomffjcbnllcenbnih
+WebPG: http://webpg.org/
 
-https://github.com/kylehuff/webpg-chrome
+WebPG chrome extension: https://chrome.google.com/webstore/detail/webpg/hhaopbphlojhnmbomffjcbnllcenbnih
+
+kylehuff's webpg-chrome at GitHub: https://github.com/kylehuff/webpg-chrome
