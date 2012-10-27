@@ -1,7 +1,7 @@
 {
 	"name": "#asssets-otc",
 	"description": "A helper extension for gpg crypto automation for assets-otc.com",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"manifest_version": 2,
 	"icons": {
 		"128": "icon_128.png"
@@ -26,19 +26,19 @@
 	"permissions": ["https://assets-otc.com/*", "clipboardWrite"],
 	"content_scripts": [
 		{
-			"matches": ["https://assets-otc.com/login.php"],
+			"matches": ["https://assets-otc.com/login.php*"],
 			"js": ["login.js"]
 		},
 		{
-			"matches": ["https://assets-otc.com/reqtr.php"],
+			"matches": ["https://assets-otc.com/reqtr.php*"],
 			"js": ["reqtr.js"]
 		},
 		{
-			"matches": ["https://assets-otc.com/divadr.php"],
+			"matches": ["https://assets-otc.com/divadr.php*"],
 			"js": ["contr.js"]
 		},
 		{
-			"matches": ["https://assets-otc.com/trans.php"],
+			"matches": ["https://assets-otc.com/trans.php*"],
 			"js": ["contr.js"]
 		}
 	]
