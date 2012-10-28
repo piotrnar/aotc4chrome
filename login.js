@@ -2,7 +2,7 @@ var d = document.createElement("DIV");
 var u = chrome.extension.getURL("options.html");
 d.innerHTML = "<br><i>You are using #assets-otc browser \
 extension that will help with the login process.<br>\
-If you have more then one private key registered in your GnuPG envirionment,<br> \
+If you have more then one private key registered in your GnuPG environment,<br> \
 you may need to select the one for #asset-otc in the extension's \
 <a href=\""+u+"\">Options</a>.</i><br><br>";
 
