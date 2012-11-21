@@ -13,6 +13,8 @@ They are in ./plugins/ folder - built for Mac, Linux and Windows.
 Please feel welcome to make sure that they are identical with these:
 https://github.com/kylehuff/webpg-chrome/tree/master/extension/plugins
 
+You can also find this extension in Chrome Web Store:
+https://chrome.google.com/webstore/detail/asssets-otc/fhbagjccjflnmpbffhfljngjebglnnlm
 
 ===========
 Links which you may find useful.
