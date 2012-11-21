@@ -2,8 +2,8 @@ var d = document.createElement("DIV");
 var u = chrome.extension.getURL("options.html");
 d.innerHTML = "<br><i>You are using #assets-otc browser \
 extension that will help with the login process.<br>\
-If you have more then one private key registered in your GnuPG environment,<br> \
-you may need to select the one for #assets-otc in the extension's \
+If order to use the extension make sure to select a proper \
+private key for #assets-otc in the extension's \
 <a href=\""+u+"\">Options</a>.</i><br><br>";
 
 outform.insertBefore(d, gpgsignedmsg)
